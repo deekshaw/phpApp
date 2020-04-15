@@ -1,0 +1,23 @@
+[16-May-2017 14:56:43 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[16-May-2017 14:56:45 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php:925
+Stack trace:
+#0 /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php(815): PHPMailer->SmtpConnect()
+#1 /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php(678): PHPMailer->SmtpSend('Date: Tue, 16 M...', '--b1_b22a90f9be...')
+#2 /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php(606): PHPMailer->PostSend()
+#3 /home/wmeenaproducts/public_html/quform/process.php(389): PHPMailer->Send()
+#4 {main}
+  thrown in /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php on line 925
+[16-May-2017 14:58:10 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[16-May-2017 14:58:12 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'The following From address failed: noreply@silver9films.com' in /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php:820
+Stack trace:
+#0 /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php(678): PHPMailer->SmtpSend('Date: Tue, 16 M...', '--b1_2467f05a6c...')
+#1 /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php(606): PHPMailer->PostSend()
+#2 /home/wmeenaproducts/public_html/quform/process.php(389): PHPMailer->Send()
+#3 {main}
+  thrown in /home/wmeenaproducts/public_html/quform/lib/class.phpmailer.php on line 820
+[16-May-2017 14:59:24 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[16-May-2017 15:00:36 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[27-May-2017 10:29:40 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[12-Jun-2017 19:38:55 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[19-Jun-2017 14:28:30 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0
+[24-Jun-2017 02:41:53 Asia/Kolkata] PHP Warning:  Module 'timezonedb' already loaded in Unknown on line 0

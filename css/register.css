@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(28, 29, 29);
+}
+
+form{
+    
+    margin-top: 15%;
+}
+
+.form_register{
+    margin-bottom: 1%;
+    margin-top:1%;
+    width:100%;
+    background-color: rgb(28, 29, 29);
+}
+
+.form_register{
+    padding:1% 2%;
+}
+
+::placeholder{
+    color:yellow;
+    opacity :1;
+}
